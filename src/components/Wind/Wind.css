@@ -1,0 +1,11 @@
+.wind{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.wind img{
+    width: 12px;
+    height: 12px;
+}
