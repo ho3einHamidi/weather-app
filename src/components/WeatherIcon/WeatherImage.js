@@ -22,7 +22,7 @@ const getImageFromType = (type) => {
 
 export function WeatherImage({type}) {
     if(!type){
-        return <p>Search city name</p>
+        return <p></p>
     }
     return<img className="image" src={getImageFromType(type.toLowerCase())}></img>;
   

@@ -1,9 +1,9 @@
+import "./Temp.css"
+
 export function Temp({temp}) {
     if(temp){
         return(
-            <p>{temp}</p>
+            <p className="temp">{temp}°C</p>
         )
-    }else{
-        return(<p></p>)
     }
 }

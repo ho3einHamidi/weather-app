@@ -6,7 +6,7 @@ export function formatWeatherApiResponse(data) {
         minTemp: Math.round(data.main.temp_min - 273.15),
         name: data.name,
         type: data.weather[0].main,
-        wind: data.wind.speed,
+        wind: Math.floor(data.wind.speed),
       };
     }
   }

@@ -5,7 +5,7 @@ export function Wind({windSpeed}){
         return(
             <div className="wind">
                 <img src={wind}></img>
-                <p>{windSpeed}</p>
+                <p>{windSpeed} k/h</p>
             </div>
         )
     }
